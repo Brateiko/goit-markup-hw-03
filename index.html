@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Webstudio</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
-        <link rel="stylesheet" href="./css/styles.css">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Web Studio</title>
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+          integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer"/>
+        <link rel="stylesheet" href="./css/styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+          rel="stylesheet"/>
     </head>
     <body>  
-        <header>
+        <header class="header">
             <div class="container">
                 <div class="header-inner">
                     <nav class="header-nav">
@@ -55,26 +62,26 @@
                 <div class="container">
                     <h2 class="visually-hidden">Our advantages</h2>
                     <ul class="second-list">
-                        <li>
+                        <li class="second-item">
                             <h3 class="information">Strategy</h3>
                             <p class="information-text">
                             Our goal is to identify the business
                             problem to walk away with the perfect and creative solution. 
                             </p>
                         </li>
-                        <li>
+                        <li class="second-item">
                             <h3 class="information">Punctuality</h3>
                             <p class="information-text">
                             Bring the key message to the brand's audience for the best price within the shortest possible time.
                             </p>
                         </li>
-                        <li>
+                        <li class="second-item">
                             <h3 class="information">Diligence</h3>
                             <p class="information-text">
                             Research and confirm brands that present the strongest digital growth opportunities and minimize risk.
                             </p>
                         </li>
-                        <li>
+                        <li class="second-item">
                             <h3 class="information">Technologies</h3>
                             <p class="information-text">
                             Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.
@@ -88,24 +95,32 @@
                     <h2 class="second-title">Our Team</h2>
                     <ul class="three-list">
                         <li class="list">
-                            <img src="./images/mark.jpg" alt="Boy" width="264">
-                            <h3 class="name">Mark Guerrero</h3>
-                            <p class="work-name">Product Designer</p>  
+                            <img src="./images/mark.jpg" alt="Boy" width="264" height="260">
+                            <div class="card-content">
+                                <h3 class="name">Mark Guerrero</h3>
+                                <p class="work-name">Product Designer</p>  
+                            </div>
                         </li>
                         <li class="list">
-                            <img src="./images/tom.jpg" alt="Boy" width="264">
-                            <h3 class="name">Tom Ford</h3>
-                            <p class="work-name">Frontend Developer</p>  
+                            <img src="./images/tom.jpg" alt="Boy" width="264" height="260">
+                            <div class="card-content">
+                                <h3 class="name">Tom Ford</h3>
+                                <p class="work-name">Frontend Developer</p>  
+                            </div>
                         </li>
                         <li class="list">
-                            <img src="./images/camila.jpg" alt="Girl" width="264">
-                            <h3 class="name">Camila Garcia</h3>
-                            <p class="work-name">Marketing</p> 
+                            <img src="./images/camila.jpg" alt="Girl" width="264" height="260">
+                            <div class="card-content">
+                                <h3 class="name">Camila Garcia</h3>
+                                <p class="work-name">Marketing</p> 
+                            </div>
                         </li>
                         <li class="list">
-                            <img src="./images/daniel.jpg" alt="Boy" width="264">
-                            <h3 class="name">Daniel Wilson</h3>
-                            <p class="work-name">UI Designer</p> 
+                            <img src="./images/daniel.jpg" alt="Boy" width="264" height="260">
+                            <div class="card-content">
+                                <h3 class="name">Daniel Wilson</h3>
+                                <p class="work-name">UI Designer</p> 
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -116,33 +131,45 @@
                     <ul class="four-list">
                         <li class="four-item">
                             <img src="./images/banking.jpg" alt="Banking App" width="360">
-                            <h3 class="action">Banking App</h3>
-                            <p class="work">App</p>
+                            <div class="portfolio-item">
+                                <h3 class="action">Banking App</h3>
+                                <p class="work">App</p>
+                            </div>
                         </li>
                         <li class="four-item">
                             <img src="./images/cashless.jpg" alt="Cachless Payment" width="360">
-                            <h3 class="action">Cashless Payment</h3>
-                            <p class="work">Marketing</p>
+                            <div class="portfolio-item">
+                                <h3 class="action">Cashless Payment</h3>
+                                <p class="work">Marketing</p>
+                            </div>
                         </li>
                         <li class="four-item">
                             <img src="./images/meditation.jpg" alt="Meditation App" width="360">
-                            <h3 class="action">Meditation App</h3>
-                            <p class="work">App</p>
+                            <div class="portfolio-item">
+                                <h3 class="action">Meditation App</h3>
+                                <p class="work">App</p>
+                            </div>
                         </li>
                         <li class="four-item">
                             <img src="./images/taxi.jpg" alt="Taxi Service" width="360">
-                            <h3 class="action">Taxi Service</h3>
-                            <p class="work">Marketing</p>
+                            <div class="portfolio-item">
+                                <h3 class="action">Taxi Service</h3>
+                                <p class="work">Marketing</p>
+                            </div>
                         </li>
                         <li class="four-item">
                             <img src="./images/screen.jpg" alt="Screen Illustration" width="360">
-                            <h3 class="action">Screen Illustrations</h3>
-                            <p class="work">Design</p>
+                            <div class="portfolio-item">
+                                <h3 class="action">Screen Illustrations</h3>
+                                <p class="work">Design</p>
+                            </div>
                         </li>
                         <li class="four-item">
                             <img src="./images/oneline.jpg" alt="Oneline Courses" width="360">
-                            <h3 class="action">Online Courses</h3>
-                            <p class="work">Marketing</p>
+                            <div class="portfolio-item">
+                                <h3 class="action">Online Courses</h3>
+                                <p class="work">Marketing</p>
+                            </div>
                         </li>
                     </ul>
                 </div>

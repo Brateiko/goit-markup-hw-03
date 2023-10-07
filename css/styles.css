@@ -5,13 +5,18 @@
     --c-hover: #404BBF;
     --c-logo: #4D5AE5;
     --c-logo-light: #F4F4FD;
+    --c-new: #E7E9FC;
 }
 
 body{
     font-family: 'Roboto', sans-serif;
     color: var(--c-primary);
     background-color: var(--c-primary-light);
+    font-weight: 500;
     font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+    letter-spacing: 0.02em;
 }
 
 a{
@@ -19,7 +24,7 @@ a{
 }
 
 ul{
-    list-style-type: none;
+    list-style: none;
     margin: 0;
     padding: 0;
 }
@@ -32,6 +37,7 @@ h4,
 h5, 
 h6{
     margin: 0;
+    padding: 0;
 }
 
 img{
@@ -40,9 +46,15 @@ img{
 }
 
 .container{
-    max-width: 1440px;
+    max-width: 1158px;
     margin: 0 auto;
-    padding: 0 32px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header{
+    border-bottom: 1px solid var(--c-new);
+    background: var(--c-primary-light);
 }
 
 .header-inner{
@@ -76,16 +88,13 @@ img{
 }
 
 .nav-list{
-    padding: 24px 0;
     display: flex;
     gap: 40px;
+    padding: 24px 0;
     flex-grow: 1;
     justify-content: center;
-}
-
-.header-socials{
-    display: flex;
-    gap: 40px;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
 }
 
 .nav-link-one{
@@ -107,6 +116,11 @@ img{
 
 .info-page{
     font-style: normal;
+}
+
+.header-socials{
+    display: flex;
+    gap: 40px;
 }
 
 .info{
@@ -136,6 +150,7 @@ img{
     text-align: center;
     color: var(--c-primary-light);
     font-size: 56px;
+    font-style: normal;
     font-weight: 700;
     line-height: 1.07; 
     letter-spacing: 0.02em;
@@ -148,6 +163,7 @@ img{
     justify-content: center;
     font-family: Roboto, sans-serif;
     font-size: 16px;
+    font-style: normal;
     color: var(--c-primary-light);
     background-color: var(--c-logo);
     cursor: pointer;
@@ -193,16 +209,25 @@ img{
     gap: 24px;
 }
 
+.second-item{
+    flex-direction: column;
+    align-items: flex-start;
+    width: calc((100% - 72px) / 4);
+}
+
 .information{
     color: var(--c-brand);
     font-size: 20px;
     font-weight: 500;
+    font-style: normal;
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
 }
 
 .information-text{
+    color: var(--c-primary);
+    font-style: normal;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -217,6 +242,7 @@ img{
     color: var(--c-brand);
     text-align: center;
     font-size: 36px;
+    font-style: normal;
     font-weight: 700;
     line-height: 1.11; 
     letter-spacing: 0.02em;
@@ -230,21 +256,37 @@ img{
 }
 
 .list{
+    border-radius: 0 0 4px 4px;
     background-color: var(--c-primary-light);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     flex-basis: calc((100% - 72px) / 4);
+}
+
+.card-content{
+    padding: 32px 0;
 }
 
 .name{
     color: var(--c-brand);
+    font-style: normal;
     text-align: center;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    align-items: center;
 }
 
 .work-name{
+    align-items: center;
     text-align: center;
+    color: var( --c-primary);
+    font-size: 16px;
+    font-style: normal;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -259,21 +301,32 @@ img{
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
+    row-gap: 48px;
 }
 
 .four-item{
     flex-basis: calc((100% - 48px) / 3);
 }
 
+.portfolio-item{
+    padding: 32px 16px;
+    border: 1px solid var(--c-new);
+    border-top: none;
+}
+
 .action{
     color: var(--c-brand);
+    margin-bottom: 8px;
     font-size: 20px;
     font-weight: 500;
+    font-style: normal;
     line-height: 1.2; 
     letter-spacing: 0.02em;
 }
 
 .work{
+    color: var(--c-primary);
+    font-style: normal;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -285,8 +338,12 @@ img{
 }
 
 .logo-last{
+    display: inline-block;
+    align-items: center;
+    margin-bottom: 16px;
     color: var(--c-logo);
     font-family: Raleway, sans-serif;
+    text-decoration: none;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
