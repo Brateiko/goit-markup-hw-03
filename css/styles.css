@@ -52,23 +52,20 @@ img{
     padding-right: 15px;
 }
 
-.header{
+.header-inner{
     border-bottom: 1px solid var(--c-new);
     background: var(--c-primary-light);
-}
-
-.header-inner{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 24px;
+    gap: 40px;
 }
 
 .header-nav{
     display: flex;
     align-items: center;
     flex-grow: 1;
-    gap: 24px;
+    gap: 40px;
 }
 
 .logo{
