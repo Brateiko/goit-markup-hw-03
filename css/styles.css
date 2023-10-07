@@ -52,8 +52,8 @@ img{
     padding-right: 15px;
 }
 
-.header-iner-containetr{
-    border-bottom: 1px solid var(--c-new);
+.header-iner-container{
+    border-bottom: 1px solid #e7e9fc;
     display: flex;
     align-items: center;
     justify-content: space-between;
