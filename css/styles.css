@@ -52,9 +52,12 @@ img{
     padding-right: 15px;
 }
 
-.header-inner{
+.header{
     border-bottom: 1px solid var(--c-new);
     background: var(--c-primary-light);
+}
+
+.header-inner{
     display: flex;
     align-items: center;
     justify-content: space-between;
