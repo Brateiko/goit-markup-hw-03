@@ -52,12 +52,8 @@ img{
     padding-right: 15px;
 }
 
-.header{
+.header-iner-containetr{
     border-bottom: 1px solid var(--c-new);
-    background: var(--c-primary-light);
-}
-
-.header-inner{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -97,7 +93,7 @@ img{
     letter-spacing: 0.02em;
 }
 
-.nav-link-one{
+.nav-link{
     display: inline-block;
     color: var(--c-brand);
     font-weight: 500;
@@ -106,12 +102,12 @@ img{
     padding: 24px 0;
 }
 
-.nav-link-one:hover{
+.nav-link:hover{
     color: var(--c-hover);
     text-decoration: underline;
 }
 
-.nav-link-one:focus{
+.nav-link:focus{
     color: var(--c-hover);
     text-decoration: underline;
 }
